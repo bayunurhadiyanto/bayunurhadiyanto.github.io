@@ -1,0 +1,39 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.custom-navbar {
+  background-color: white;
+}
+
+.navbar-brand {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.navbar-nav .nav-link {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+.section-fakta {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+.section-fakta img {
+  max-height: 250px;
+  object-fit: cover;
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+.badge-hoax {
+  background-color: #dc3545;
+  color: white;
+  font-size: 0.9rem;
+}
+.card-title {
+  font-weight: 600;
+  font-size: 1rem;
+}

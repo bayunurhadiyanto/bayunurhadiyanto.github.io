@@ -1,0 +1,22 @@
+body {
+  font-family: "Poppins", sans-serif;
+  padding-top: 40px;
+}
+
+.custom-navbar {
+  background-color: white;
+}
+
+.navbar-brand {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.navbar-nav .nav-link {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+#faq {
+    margin-bottom: 100px;
+}

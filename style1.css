@@ -1,0 +1,84 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.custom-navbar {
+  background-color: white;
+}
+
+.navbar-brand {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.navbar-nav .nav-link {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.jumbotron {
+  padding: 5rem 1rem;
+  background-color: #3674b5;
+  color: white;
+  background-blend-mode: color-burn;
+  margin-top: 50px;
+}
+
+.jumbotron h1 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+
+.jumbotron .btn-lg {
+  padding: 0.75rem 1.5rem;
+  font-size: 1.1rem;
+}
+
+.custom-btn {
+  background-color: #578fca;
+  color: white;
+  border: 3px solid white;
+  border-radius: 8px;
+  font-weight: 500;
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+.custom-btn:hover {
+  background-color: white;
+  color: #578fca;
+  border-color: #578fca;
+}
+
+.berita h2 {
+  font-weight: 600;
+  margin-top: 2rem;
+}
+
+.card-img-top {
+  object-fit: cover;
+  height: 200px;
+}
+
+.footer {
+  background-color: #3674b5;
+}
+
+@media (max-width: 576px) {
+  .jumbotron h1 {
+    font-size: 1.8rem;
+  }
+
+  .jumbotron {
+    padding: 3rem 1rem;
+  }
+
+  .custom-btn {
+    font-size: 1rem;
+    padding: 0.6rem 1.2rem;
+  }
+
+  .navbar-nav .nav-link {
+    font-size: 1rem;
+  }
+}
